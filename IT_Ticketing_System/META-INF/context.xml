@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- Specify a JDBC datasource -->
+	<Resource name="SENG2050_2018" 
+		auth="Container"
+		type="javax.sql.DataSource" 
+		username="c3268157" 
+		password="290191"
+		driverClassName="com.mysql.jdbc.Driver"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000" 
+		url="jdbc:mysql://localhost:30001/c3268157_db"
+		/>
+</Context>
